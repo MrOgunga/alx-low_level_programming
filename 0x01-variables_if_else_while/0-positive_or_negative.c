@@ -1,15 +1,12 @@
 #include <stdio.h>
-#include <time.t>
 #include <stdlib.h>
+#include <time.h>
 
 /**
- *main - Entry point
- *
- *Description : "i am tired betty abeg naa"
- *
- *Return: Always 0(success)
- *
- **/
+ * main - prints if the number is positive, negative or
+ 0
+ *Return: Always 0
+ */
 int main(void)
 {
 	int n;
@@ -17,10 +14,16 @@ int main(void)
 	strand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
+	{
 		printf("d is positive\n", n);
+	}
 	else if (n == 0)
+	{
 		printf("%d is zero\n", n);
+	}
 	else if (n < 0)
+	{
 		printf("%d is negative\n", n);
+	}
 	return (0);
 }
