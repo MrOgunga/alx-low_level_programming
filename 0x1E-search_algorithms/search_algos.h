@@ -19,7 +19,7 @@ int advanced_binary(int *array, size_t size, int value);
  * @next: Pointer to the next node
  *
  * Description: singly linked list node structure
- * for Holberton project
+ * for ALX project
  */
 typedef struct listint_s
 {
@@ -37,7 +37,7 @@ listint_t *jump_list(listint_t *list, size_t size, int value);
  * @express: Pointer to the next node in the express lane
  *
  * Description: singly linked list node structure with an express lane
- * for Holberton project
+ * for ALX project
  */
 typedef struct skiplist_s
 {
